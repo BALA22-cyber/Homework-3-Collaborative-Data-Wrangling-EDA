@@ -1,0 +1,5 @@
+/notebooks
+/data
+#ignore python files
+*.py
+analysis_dataset.ipynb
