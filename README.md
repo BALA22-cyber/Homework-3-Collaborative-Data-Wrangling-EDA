@@ -14,3 +14,7 @@ It contains information about games published on Steam, including attributes suc
 ## EDA 
 
 Davis Hunter performed Exploratory Data Analysis (EDA), including price trends, game description word/phrase analysis, platform compatibility, and release year trends.
+
+Merge Conflict Reflection:
+
+Davis - I had a merge conflict within the README. It was changed on github.com and in my IDE. I didn’t to pull before I pushed. To resolve the conflict, I merged the two and deleted the unwanted changes, and then pushed the result.
