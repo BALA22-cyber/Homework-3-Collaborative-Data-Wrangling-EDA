@@ -1,7 +1,11 @@
 # Steam Games Dataset Analysis
 
 ## Dataset Source and Description
-The dataset used in this project is the Steam Games Dataset originally sourced from Kaggle (accessed September 2025).
+The dataset used in this project is the Steam Games Dataset originally sourced from Kaggle (accessed September 2025). The csv file we used has over 110000 rows.
+Here is a link:
+
+https://www.kaggle.com/datasets/fronkongames/steam-games-dataset
+
 It contains information about games published on Steam, including attributes such as:
 	-	Game name
 	-	Price
@@ -14,6 +18,14 @@ It contains information about games published on Steam, including attributes suc
 ## EDA 
 
 Davis Hunter performed Exploratory Data Analysis (EDA), including price trends, game description word/phrase analysis, platform compatibility, and release year trends.
+
+The average price of a game on Steam is $7.06.
+The standard deviation of prices is $12.56.
+
+Since the standard deviation is so large, we infer there are outliers in the data that pull the average price up.
+
+Upon analysis we find that 'The Leverage Game' is $1000!
+
 
 Merge Conflict Reflection:
 
