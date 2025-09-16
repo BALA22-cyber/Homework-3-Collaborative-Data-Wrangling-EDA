@@ -25,7 +25,7 @@ Here are some results:
 The average price of a game on Steam is \$7.06.
 The standard deviation of prices is \$12.56.
 
-Since the standard deviation is so large, we infer there are outliers in the data that pull the average price up. For example, we find that 'The Leverage Game' is $1000!
+Since the standard deviation is so large, we infer there are outliers in the data that pull the average price up. When we look at the data we find that 'The Leverage Game' is $1000!
 
 Here is a histogram of game prices:
 
