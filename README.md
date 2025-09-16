@@ -20,13 +20,13 @@ Dataset had a csv structure issue(missing comma), so we fixed it manually. Fixed
 
 ## Data Analysis and cleaning
 
-### Checkout data_cleaning.ipynb for data cleaning code
+### Checkout `data_cleaning.ipynb` for data cleaning code
 
 Balaji Selvakumar performed data cleaning by removing certain columns which are NLP specific("object" datatypes) and might not be relevant for EDA of the current assignment. 
 
 - Removed NaN Values and replaced them to 0
 - Removed Duplicate AppIDs
-- Changed "object" dtype NaNs to Unknown
+- Changed `object` dtype NaNs to Unknown
 - Parsed `Release year` from `release_date` (dropped rows missing critical fields). 
 - Reduced total number of missing values from 14% to 0.2% 
 
@@ -34,6 +34,14 @@ Balaji Selvakumar performed data cleaning by removing certain columns which are 
 
 Davis Hunter performed Exploratory Data Analysis (EDA), including price trends, game description word/phrase analysis, platform compatibility, and release year trends.
 
-### Checkout 'eda.ipynb' for EDA
+### Checkout `eda.ipynb` for EDA
+
+
+## Package requirements - checkout requirements.txt
+`conda create -n myenv python=3.10`
+
+`conda activate myenv`
+
+`pip install -r requirements.txt`
 
 
